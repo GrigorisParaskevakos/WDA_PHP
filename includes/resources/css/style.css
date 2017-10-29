@@ -1,0 +1,428 @@
+/* Universal Styles */
+
+@font-face {
+    font-family: "Zona Pro Bold";
+    src: url("../fonts/ZonaPro-Bold.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "Zona Pro";
+    src: url("../fonts/ZonaPro-Regular.otf") format("truetype");
+}
+
+body {
+    font-family: "Zona Pro", sans-serif;
+    text-align: center;
+    color: white;
+}
+
+h3 {
+    letter-spacing: 0.27em;
+    font-size: 1.9em;
+}
+
+h4,
+h3 {
+    font-family: "Zona Pro Bold";
+}
+
+h5 {
+    color: lightskyblue;
+}
+
+.card-block {
+    margin-bottom: 3%;
+}
+
+
+/* Bootstrap Overrides */
+
+.jumbotron {
+    margin-bottom: 0 !important;
+}
+
+p {
+    font-family: "Zona Pro";
+    font-size: 1.2em;
+}
+
+
+/* Header Section */
+
+.navbar {
+    margin-bottom: 0 !important;
+}
+
+.navbar-default {
+    background-color: rgb(135, 80, 156);
+    border-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    border-color: transparent;
+    font-family: "Zona Pro", sans-serif;
+    font-size: 1.1em;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+    background-color: rgb(100, 58, 121);
+    border-radius: 5px;
+}
+
+a:active {
+    background-color: #452850 !important;
+    border-radius: 5px !important;
+}
+
+
+/*logo*/
+
+#wda {
+    float: left;
+}
+
+img#wda:hover {
+    background-color: #87509c;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.container ul {
+    float: right;
+}
+
+nav.navbar.navbar-default {
+    padding: 1% 0%;
+}
+
+div.container-fluid.box1 {
+    padding: 10% 5%;
+}
+
+
+/* Mobile menu*/
+
+
+/*under navigation bar section */
+
+.box1 {
+    background-color: rgb(135, 80, 156);
+    border-color: transparent;
+}
+
+.box1 p {
+    font-size: 2.5em;
+    color: white;
+}
+
+
+/*button*/
+
+#awesome {
+    background-color: rgb(235, 125, 75);
+    border-color: transparent;
+    margin-top: 5%;
+    font-size: 1.8em;
+    font-family: "Zona Pro Bold";
+}
+
+#awesome:hover {
+    border-bottom: 5px solid rgb(200, 106, 64);
+    padding-top: 6px;
+}
+
+
+/*Main Section */
+
+.border-pavla {
+    border-bottom: 5px solid rgba(0, 0, 0, 0.2);
+    width: 100px;
+    margin: 1% auto;
+}
+
+.ninja {
+    margin-bottom: 5%;
+}
+
+#main-services {
+    background-color: rgb(23, 194, 164);
+    color: white;
+    padding: 5%;
+}
+
+#main-team {
+    background-color: rgb(231, 241, 248);
+    color: black;
+    padding: 5%;
+}
+
+.card a {
+    color: white;
+    background-color: rgba(128, 128, 128, 0.17);
+    font-size: 1.5em;
+    padding: 1%;
+    margin-right: 1em;
+    border-radius: 50%;
+    text-decoration: none !important;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+.card a:hover {
+    background-color: rgb(192, 192, 192) !important;
+    color: rgba(128, 128, 128, 0.17);
+}
+
+.card a:active {
+    text-decoration: none !important;
+}
+
+.fa {
+    color: #fdfbfb;
+    width: 8%;
+    margin: 1%;
+}
+
+#main-skill {
+    background-color: white;
+    color: black;
+    padding: 5%;
+}
+
+.percent {
+    padding: 1%;
+}
+
+#main-client {
+    background-color: rgb(215, 70, 128);
+    color: white;
+    padding: 5%;
+}
+
+.images {
+    padding: 0em !important;
+}
+
+.comments {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.text-left {
+    padding: 10%;
+}
+
+
+/* circle progress bars */
+
+.bold {
+    font-family: "Zona Pro Bold";
+    font-size: 1.2em;
+    margin-top: 1em;
+}
+
+
+/*contact form*/
+
+#contact {
+    background-color: rgb(91, 99, 184);
+    color: white;
+    padding: 5%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.form-control {
+    border: none;
+    background-color: rgb(39, 58, 113);
+    color: white;
+}
+
+.form-width {
+    width: 37%;
+}
+
+.error {
+    color: rgb(255, 82, 82);
+    background-color: rgb(192, 192, 192);
+    font-size: 2em;
+    margin-top: 4% !important;
+    z-index: 1000000000;
+}
+
+.success {
+    color: lime;
+    background-color: #5b63b8;
+    font-size: 2.5em;
+    width: 100%;
+    margin-top: 4% !important;
+    box-shadow: 2px 1px 16px 11px rgb(185, 185, 185);
+    z-index: 1000000000;
+    transition: box-shadow 2s ease-in 2.5ms;
+}
+
+.wordFeedback {
+    color: lime;
+    text-decoration: underline;
+}
+
+
+/*placeholder*/
+
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: rgb(255, 255, 255) !important;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: rgb(255, 249, 192) !important;
+}
+
+:-ms-input-placeholder {
+    /* IE 10+ */
+    color: rgb(249, 248, 252) !important;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: rgb(252, 248, 249) !important;
+}
+
+input[type="email"].big-dog::-webkit-input-placeholder {
+    color: orange;
+}
+
+
+/* endof placeholder */
+
+.send {
+    background-color: rgb(48, 186, 231);
+    border: none;
+}
+
+
+/* Footer section */
+
+footer {
+    background-color: rgb(52, 75, 142);
+    padding: 2%;
+}
+
+.footer a {
+    color: white !important;
+    font-size: 1.7em;
+    padding: 1%;
+    font-family: "Zona Pro Bold";
+}
+
+.footer a:hover {
+    text-decoration: none;
+    color: rgba(48, 186, 231, 1) !important;
+}
+
+
+/* Feedback Section */
+
+.feed {
+    background-color: red;
+}
+
+#copy {
+    padding: 1%;
+}
+
+#copy :hover {
+    color: whitesmoke !important;
+    text-decoration: none;
+}
+
+.center a {
+    text-align: center;
+}
+
+.mobile {
+    display: none;
+}
+
+
+/* Bootstrap Overrides @media queries*/
+
+.navbar {
+    border-radius: 0px !important;
+}
+
+
+/* slogan message */
+
+
+/* @Footer Section */
+
+@media only screen and (max-width: 768px) {
+    .box1 #hi {
+        padding-top: 8%;
+    }
+    .container ul {
+        float: none;
+    }
+    div.container-fluid.box1 {
+        margin-top: 10%;
+    }
+    .desk {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+    .mobile a {
+        margin: 0 4px;
+    }
+    /* reply messages */
+    .success {
+        font-size: 1.5em;
+        margin-top: -21% !important;
+        box-shadow: 2px 1px 16px 11px rgb(185, 185, 185);
+        margin-top: 20% !important;
+        z-index: 1000000000;
+    }
+    .error {
+        font-size: 1.5em;
+        margin-top: -21% !important;
+        box-shadow: 2px 1px 16px 11px rgb(253, 3, 3);
+        z-index: 1000000000;
+    }
+    div.container-fluid.box1 {
+        margin-top: 2%;
+    }
+    .box1 p {
+        font-size: 1.5em;
+        margin-top: 7%;
+    }
+}
+
+
+/*@main section*/
+
+@media only screen and (min-width: 992px) {
+    .form-width {
+        width: 45% !important;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .form-width {
+        width: 60% !important;
+    }
+}
+
+@media only screen and (min-width: 220px) {
+    .form-width {
+        width: 80% !important;
+    }
+}
